@@ -1,0 +1,7 @@
+version: '0.1'
+services:
+  app:
+    image: jamescole2035/crt-symfony:0.1
+  
+  database: 
+    image: postgres:11-alpine
